@@ -1,40 +1,29 @@
 /* === Fonts === */
 
 @font-face {
-    font-family: "Amatic SC";
+    font-family: "Merriather-Bold";
     font-style: normal;
     font-weight: 400;
-    src: local("Amatic SC Regular"), local("AmaticSC-Regular"),
-        url("./../fonts/amatic-sc/amatic-sc-v13-latin-regular.woff2") format("woff2"),
-        url("./../fonts/amatic-sc/amatic-sc-v13-latin-regular.woff") format("woff");
+    src: local("Merriather-Bold"), local("Merriather-Bold"),
+        url("./../fonts/Merriweather-Bold.ttf") format("ttf");
 }
 
 @font-face {
-    font-family: "Oswald";
+    font-family: "Merriather-Italic";
     font-style: normal;
     font-weight: 300;
-    src: local(""),
-        url("./../fonts/oswald/oswald-v31-latin-300.woff2") format("woff2"),
-        url("./../fonts/oswald/oswald-v31-latin-300.woff") format("woff");
+    src: local("Merriather-Italic"), local("Merriather-Italic"),
+    url("./../fonts/Merriweather-Italic.ttf") format("ttf");
 }
 
 @font-face {
-    font-family: "Oswald";
+    font-family: "Montserrat-Regular";
     font-style: normal;
     font-weight: 400;
     src: local(""),
-        url("./../fonts/oswald/oswald-v31-latin-regular.woff2") format("woff2"),
-        url("./../fonts/oswald/oswald-v31-latin-regular.woff") format("woff");
+        url("./../fonts/Montserrat-Regular.ttf") format("ttf");
 }
 
-@font-face {
-    font-family: "Oswald";
-    font-style: normal;
-    font-weight: 700;
-    src: local(""),
-        url("./../fonts/oswald/oswald-v31-latin-700.woff2") format("woff2"),
-        url("./../fonts/oswald/oswald-v31-latin-700.woff") format("woff");
-}
 
 /* === Allgemeines CSS === */
 
@@ -57,7 +46,7 @@ textarea,
 button,
 select,
 option {
-    font-family: "Oswald", Helvetica, sans-serif;
+    font-family: "Montserrat-Regular", Helvetica, sans-serif;
     font-weight: 300;
     font-size: 1.5rem;
     line-height: 1.5rem;
@@ -128,7 +117,8 @@ h6 {
     font-size: 5rem;
     text-transform: uppercase;
     color: #fff;
-    font-family: "Amatic SC", cursive;
+    font-family: "Merriather-Bold";
+    font-style: normal;
     line-height: inherit;
     vertical-align: bottom;
 }
